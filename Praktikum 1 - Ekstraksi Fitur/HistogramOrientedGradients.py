@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 
 #reading the image
-img = imread('dataset/lenna.png')
+img = imread('../dataset/lenna.png')
 print(img.shape)
 resized_img = resize(img, (128,64))
 
