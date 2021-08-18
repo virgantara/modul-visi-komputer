@@ -6,7 +6,7 @@ from torchvision import datasets, transforms
 from SimpleNN import NeuralNetwork
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
-
+print(device)
 model = NeuralNetwork().to(device)
 print(model)
 
